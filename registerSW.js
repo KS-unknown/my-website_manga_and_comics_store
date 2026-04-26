@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/my-website_manga_and_comics_store/sw.js', { scope: '/my-website_manga_and_comics_store/' })})}
